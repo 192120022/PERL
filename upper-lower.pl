@@ -1,0 +1,11 @@
+$dna='ATGCTGAC';
+$dna=~tr/ATGC/atgc/;
+print"$dna\n";
+$dna='atgctgac';
+$dna=~tr/agtc/ATGC/;
+print $dna"\n";
+$dna='ATGCTGAC';
+print "\L$dna\n";
+$dna='atgctgac';
+print "\U$dna\n";
+exit;
